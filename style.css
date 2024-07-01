@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-IB {
+    display: inline-block;
+}
+
+h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.Background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Background video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.window {
+    position: absolute;
+    width: 300px;
+    max-width: calc(100% - 30px); /* Responsive maximum width */
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+}
+
+.window h3 {
+    padding: 10px 0;
+}
+
+.icon {
+    width: 80px; /* Enlarging icon */
+    height: 80px; /* Enlarging icon */
+    margin-bottom: 20px;
+    border-radius: 50%; /* Making icon circular */
+    background-color: #fff; /* Adding background color */
+    padding: 10px; /* Adjusting padding for better appearance */
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5); /* Adding glow effect */
+}
+
+.changeTempK, .changeTempF{
+    background-color: rgba(210, 200, 200, 0.6);
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
