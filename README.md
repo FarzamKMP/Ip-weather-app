@@ -4,7 +4,7 @@ This is a simple weather app that uses your IP address to determine your locatio
 
 ## API Reference
 
-#### Get location base on API
+#### Get location base on IP
 
 ```http
   http://ip-api.com/json/?fields=country,city,lat,lon,timezone
